@@ -10,10 +10,7 @@ const MID = "#6B6B6B";
 const LIGHT_BORDER = "#E8E5E0";
 
 /* ─────────────────────────────────────────────
-   IMAGE SETUP (for VS Code / Vite):
-   1. Create: public/images/
-   2. Drop all your .png files there
-   3. Paths below reference /images/filename.png
+   IMAGE SETUP
    ───────────────────────────────────────────── */
 
 const projects = [
