@@ -91,6 +91,7 @@ The PCB layout itself required careful attention to trace routing — particular
     images: [
     { src: "/images/industrial_pcb.png",         caption: "PCB layout (IND_PROTO_V1) — dual-layer board with MOSFET drivers, USB, and configurable GPIO", layout: "half" },
     { src: "/images/industrial_pcb_schematic.png", caption: "Full schematic — microcontroller, solenoid driver circuits, power management, and connector interfaces", layout: "half" },
+    {src: "/images/soldered_pcb.png", caption: "Fully soldered custom pCB", layout: "half" },
     { src: "/images/industrial_before.png",      caption: "Before: breadboarded prototype driving solenoids prior to custom PCB", layout: "half" },
     { src: "/images/industrial_after.png",           caption: "After: PCB assembled and integrated into system", layout: "half" },
     { src: null, caption: "Board integrated into enclosure showing connector alignment", layout: "half" },
