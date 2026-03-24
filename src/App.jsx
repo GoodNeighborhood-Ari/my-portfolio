@@ -86,13 +86,13 @@ One of the key goals was modularity. The schematic was designed so that differen
 
 The PCB layout itself required careful attention to trace routing — particularly around the high-current solenoid paths and the analog signal lines — to avoid noise coupling and ensure signal integrity. The board went through several design reviews before being sent out for fabrication.
 
-The physical boards are currently being manufactured and will be integrated into the next generation of our testing systems. Photos of the assembled board will be added here once they arrive.`,
+`,
     tags: ["KiCad", "PCB Design", "Circuit Design", "Firmware", "C++"],
     images: [
     { src: "/images/industrial_pcb.png",         caption: "PCB layout (IND_PROTO_V1) — dual-layer board with MOSFET drivers, USB, and configurable GPIO", layout: "half" },
     { src: "/images/industrial_pcb_schematic.png", caption: "Full schematic — microcontroller, solenoid driver circuits, power management, and connector interfaces", layout: "half" },
     { src: "/images/industrial_before.png",      caption: "Before: breadboarded prototype driving solenoids prior to custom PCB", layout: "half" },
-    { src: "/images/soldered_pcb.png",           caption: "After: IND_PROTO_V1 assembled and populated — Pico 2W with screw terminal I/O", layout: "half" },
+    { src: "/images/industrial_after.png",           caption: "After: PCB assembled and integrated into system", layout: "half" },
     { src: null, caption: "Board integrated into enclosure showing connector alignment", layout: "half" },
     { src: null, caption: "Close-up of MOSFET driver section and power routing", layout: "half" },
   ],
