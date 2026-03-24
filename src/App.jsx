@@ -31,12 +31,12 @@ The impact was immediate. Manual inspection time dropped by over 80%, and the co
 
     tags: ["Fusion 360", "Process Design", "Automation", "Lean", "Python", "Firmware", "Pneumatics"],
     images: [
-      { src: null, caption: "Full QC station assembly — front view", layout: "full" },
-      { src: null, caption: "Cartridge loading interface and pneumatic actuation mechanism", layout: "full" },
-      { src: null, caption: "Operator GUI showing live test sequence and pass/fail results", layout: "full" },
-      { src: null, caption: "Internal electronics and wiring harness", layout: "half" },
-      { src: null, caption: "Close-up of cartridge seating fixture with alignment features", layout: "half" },
-    ],
+        { src: "/images/big_tony_hero.png",  caption: "Full QC station — front view", layout: "full" },
+        { src: "/images/big_tony_main.png",  caption: "Overall system view showing instrument array and fluidic routing", layout: "full" },
+        { src: null, caption: "Operator GUI showing live test sequence and pass/fail results", layout: "full" },
+        { src: "/images/big_tony_back.png",  caption: "Rear of station — wiring harness and power distribution", layout: "half" },
+        { src: null, caption: "Close-up of cartridge seating fixture with alignment features", layout: "half" },
+      ],
   },
   {
     id: 2,
@@ -89,12 +89,13 @@ The PCB layout itself required careful attention to trace routing — particular
 The physical boards are currently being manufactured and will be integrated into the next generation of our testing systems. Photos of the assembled board will be added here once they arrive.`,
     tags: ["KiCad", "PCB Design", "Circuit Design", "Firmware", "C++"],
     images: [
-      { src: "/images/industrial_pcb.png", caption: "PCB layout (IND_PROTO_V1) — dual-layer board with MOSFET drivers, USB, and configurable GPIO", layout: "half" },
-      { src: "/images/industrial_pcb_schematic.png", caption: "Full schematic — microcontroller, solenoid driver circuits, power management, and connector interfaces", layout: "half" },
-      { src: null, caption: "Assembled PCB with components populated — photos coming soon", layout: "full" },
-      { src: null, caption: "Board integrated into enclosure showing connector alignment", layout: "half" },
-      { src: null, caption: "Close-up of MOSFET driver section and power routing", layout: "half" },
-    ],
+    { src: "/images/industrial_pcb.png",         caption: "PCB layout (IND_PROTO_V1) — dual-layer board with MOSFET drivers, USB, and configurable GPIO", layout: "half" },
+    { src: "/images/industrial_pcb_schematic.png", caption: "Full schematic — microcontroller, solenoid driver circuits, power management, and connector interfaces", layout: "half" },
+    { src: "/images/industrial_before.png",      caption: "Before: breadboarded prototype driving solenoids prior to custom PCB", layout: "half" },
+    { src: "/images/soldered_pcb.png",           caption: "After: IND_PROTO_V1 assembled and populated — Pico 2W with screw terminal I/O", layout: "half" },
+    { src: null, caption: "Board integrated into enclosure showing connector alignment", layout: "half" },
+    { src: null, caption: "Close-up of MOSFET driver section and power routing", layout: "half" },
+  ],
   },
   {
     id: 4,
