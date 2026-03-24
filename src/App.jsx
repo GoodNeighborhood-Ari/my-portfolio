@@ -34,7 +34,7 @@ The impact was immediate. Manual inspection time dropped by over 80%, and the co
         { src: "/images/big_tony_hero.png",  caption: "Full QC station — front view", layout: "full" },
         { src: "/images/big_tony_main.png",  caption: "Overall system view showing instrument array and fluidic routing", layout: "full" },
         { src: null, caption: "Operator GUI showing live test sequence and pass/fail results", layout: "full" },
-        { src: "/images/big_tony_back.png",  caption: "Rear of station — wiring harness and power distribution", layout: "half" },
+        { src: "/images/Big_tony_back.png",  caption: "Rear of station — wiring harness and power distribution", layout: "half" },
         { src: null, caption: "Close-up of cartridge seating fixture with alignment features", layout: "half" },
       ],
   },
